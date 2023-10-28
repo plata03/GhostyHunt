@@ -1,0 +1,82 @@
+.tutorial-page {
+    text-align: center;
+
+}
+
+.tutorial-title {
+    font-family: 'chiller';
+    font-size: 750%;
+    color: #111111;
+    text-shadow: #6b6b6b 2px 5px;
+}
+
+.desc-first {
+    font-size: 230%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'thin'
+}
+
+.img-orb {
+    border-radius: 15px;
+    box-shadow: #6b6b6b 5px 5px;
+    margin-bottom: 10%;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    perspective: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 25px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    border-radius: 25px;
+  }
+  
+  .flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 25px;
+  }
+
+  .bosses-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .dimensions-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 8%;
+    margin-right: 8%;
+  }

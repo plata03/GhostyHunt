@@ -1,0 +1,41 @@
+.other-item-card {
+    background-color: #111111;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.other-item-card:hover {
+    transform: scale(1.15);
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: #6b6b6b 5px 5px
+}
+
+
+.other-item-card-container {
+    width: 35%;
+    height: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+    display: grid;
+}
+
+.other-title-item {
+    color: #00ffb3;
+    font-family: 'chiller';
+    font-size: 4rem;
+    
+}
+
+.other-desc-item {
+    color: #00ffb3;
+    font-style: italic;
+    font-family: 'thin'
+}
+
+.other-texts-card {
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}

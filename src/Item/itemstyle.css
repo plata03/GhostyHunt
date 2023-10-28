@@ -1,0 +1,38 @@
+.item-card {
+    display: flex;
+    background-color: #111111;
+    border-radius: 5px;
+    
+}
+
+.item-card:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: #6b6b6b 5px 5px
+}
+
+.texts-card {
+    
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.item-card-container {
+    width:55%;
+    height: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.title-item {
+    color: #00ffb3;
+    font-family: 'chiller';
+    font-size: 4rem;
+}
+
+.desc-item {
+    color: #00ffb3;
+    font-style: italic;
+    font-family: 'thin'
+}

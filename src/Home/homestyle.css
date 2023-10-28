@@ -1,0 +1,72 @@
+.home-background {
+    width: 118.96rem;
+    height: 60rem;
+}
+
+.ghosty-home {
+    background-color: #00ffb3;
+    margin: 0%;
+}
+
+.home-title {
+    font-family: 'chiller';
+    font-size: 750%;
+    color: #111111;
+    text-shadow: #6b6b6b 2px 5px;
+}
+
+.mod-desc {
+    font-size: 200%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -2%;
+    font-family: thin;
+}
+
+.go-to-download {
+    background-color: #111111;
+    color: #00ffb3;
+    padding: 1%;
+    width: 12%;
+    font-size: larger;
+    border-radius: 5px;
+    border-style: groove;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.go-to-download:hover {
+    color: #111111;
+    background-color: #00ffb3;
+    border-color: #111111;
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.2)
+}
+
+.images-scrolling {
+    padding: 2rem;
+    background-color: #111111;
+    overflow-x: hidden;
+}
+
+@keyframes infiniteScroll {
+    from {transform: translateX(0)}
+    to {transform: translateX(-120%)}
+  }
+
+.images-container {
+    display: flex;
+    gap: 20px;
+    animation-name: infiniteScroll;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+.image-container img {
+    height: 281px;
+    width: 400px;
+    white-space: nowrap;
+}

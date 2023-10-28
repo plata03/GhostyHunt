@@ -1,0 +1,48 @@
+
+.footer {
+    background-color: #111111 ;
+    display: flex;
+    padding: 1.5rem;
+}
+
+.footer-title {
+    color: #00ffb3;
+    margin-bottom: 15%;
+    font-size: 220%;
+    width: 300%;
+    
+}
+
+.footer-text {
+    color: white;
+    font-size: small;
+    width: 300%;
+}
+
+.en {
+    color: white;
+    margin-left: 67%;
+}
+
+.side1 {
+    margin-left: 5%;
+}
+
+.side2 {
+    margin-right: 5%;
+    margin-left: 70%;
+}
+
+.social {
+    display: flex;
+    margin-top: 40%;
+}
+
+.logosocial {
+    width: 55%;
+    height: auto;    
+}
+
+.logosocial:hover {
+    cursor: pointer;
+}

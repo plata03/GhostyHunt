@@ -1,0 +1,41 @@
+.contacts-page {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    color: #111111;
+}
+
+.the-form {
+    display: grid;
+    background-color: #111111;
+    padding: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: #00ffb3;
+    margin-bottom: 5%;
+    text-align: left;
+    font-size: 250%;
+    font-family: 'thin';
+    border-radius: 15px;
+}
+
+.submit-email {
+    margin-top: 7%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2%;
+    color: #111111;
+    background-color: #00ffb3;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.submit-email:hover {
+    color: #00ffb3;
+    background-color: #111111;
+    border-color: #00ffb3;
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+}

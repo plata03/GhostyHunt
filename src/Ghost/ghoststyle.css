@@ -1,0 +1,18 @@
+.ghost-card {
+    background-color: #111111;
+    border-radius: 2%;
+    width: 90%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+
+.ghost-card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: #6b6b6b 5px 5px
+}

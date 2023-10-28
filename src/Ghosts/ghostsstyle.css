@@ -1,0 +1,24 @@
+
+.ghosts-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.search {
+    margin-bottom: 3%;
+    padding: 0.5%;
+    width: 20%;
+    font-size: larger;
+    background-color: #111111;
+    border-radius: 15px;
+    font-style: italic;
+    color: #00ffb3;
+    border-style: calc(15) ;
+}
+
+
+.background-ghosts {
+    background-image: linear-gradient(to top, #3c0064 , #00ffb3);;
+}

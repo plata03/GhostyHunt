@@ -1,0 +1,10 @@
+.background-items {
+    background-image: linear-gradient(to top, #3c0064 , #00ffb3);;
+}
+
+.items-wrapper {
+    display: grid;
+     grid-template-columns: auto;
+     margin-left: 5%;
+    margin-right: 5%;
+}
