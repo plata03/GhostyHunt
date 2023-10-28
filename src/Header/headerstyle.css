@@ -42,12 +42,12 @@
 .aa:active { text-decoration: none; }
 
 li {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    margin-left: 140%;
+    margin-left: 180%;
 }

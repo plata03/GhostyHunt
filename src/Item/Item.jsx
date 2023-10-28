@@ -8,8 +8,8 @@ export const Item = ({nome, crafting, descri, need}) => {
                 <div className='texts-card'>
                     <h1 className='title-item'>{nome}</h1>
                     <p className='desc-item'> {descri} </p>
-                    <p style={{color: 'white', textAlign: 'left'}}>Items Needed:</p>
-                    <ul style={{marginLeft: '5%', color: 'white', display: 'grid', textAlign: 'left'}}>
+                    <p style={{color: 'white', textAlign: 'left', fontSize: 12}}>Items Needed:</p>
+                    <ul style={{marginLeft: '5%', color: 'white', display: 'grid', textAlign: 'left', fontSize: 12}}>
                     {need.map((e) => ( 
                         <li>- {e}</li>
                     ))}

@@ -38,9 +38,6 @@ export const Items = () => {
         <div className='background-items'>
             <Header />
             <h1 style={{fontFamily: 'chiller', fontSize: '750%', textAlign: 'center', color: '#111111', textShadow: '#6b6b6b 2px 5px'}}>Items Archive</h1>
-            <div style={{textAlign: 'center', marginTop: '-2%'}}>
-                <input className='search' placeholder='Search item...' disabled />
-            </div>
             <h2 style={{fontFamily: 'chiller', fontSize: '500%', color: '#111111', marginTop: '-2%', marginLeft: '15%', textShadow: '#6b6b6b 2px 5px'}}>Craftable Items:</h2>
             <div className='items-wrapper'>
                 {oggetti
